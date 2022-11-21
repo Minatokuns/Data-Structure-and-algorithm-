@@ -1,0 +1,21 @@
+Array are static type so size cant be changed once fixed.
+int[] arr = new int[10];
+int arr2[] = {10, 20, 30, 40, 50};
+char arr1[] = {‘g’, ‘e’, ‘e’, ‘k’, ‘s’}; *char so elements are in 'char'*
+Different for different data type like for String " " is used.
+String[] aArray = new String[5];
+String[] bArray = {"a","b","c", "d", "e"};
+String[] cArray = new String[]{"a","b","c","d","e"};
+
+Print an array : 
+int[] arr = { 1, 2, 3, 4, 5 };
+Arrays.toString(arr); // print arr as a string
+
+HASHMAP::::::::::
+Initialize : HashMap<Integer,Integer> hmap= new HashMap<>();  // <key,value> 
+hmap.containsKey(key)// if present return otherwise false
+hmap.get(key) // return value of that key
+hmap.put(key,value) // adding pair to hashmap
+
+STRING:::::::::::
+String xStr = String.valueOf(x); // store the int value as a string
