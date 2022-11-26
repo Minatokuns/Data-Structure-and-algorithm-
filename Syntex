@@ -6,6 +6,7 @@ Different for different data type like for String " " is used.
 String[] aArray = new String[5];
 String[] bArray = {"a","b","c", "d", "e"};
 String[] cArray = new String[]{"a","b","c","d","e"};
+char[] ch = str.toCharArray(); //string to char array
 
 Print an array : 
 int[] arr = { 1, 2, 3, 4, 5 };
