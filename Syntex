@@ -16,6 +16,11 @@ Initialize : HashMap<Integer,Integer> hmap= new HashMap<>();  // <key,value>
 hmap.containsKey(key)// if present return otherwise false
 hmap.get(key) // return value of that key
 hmap.put(key,value) // adding pair to hashmap
+hmap.put(nums[i],new_map.getOrDefault(nums[i],0)+1); //updating value
+HASHSET:::::::::
+creating a hashset with values 
+Set<Character> set = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')); OR
+Set<Character> chSet = Set.of('a','e','i','o','u','y');
 
 STRING:::::::::::
 String xStr = String.valueOf(x); // store the int value as a string
