@@ -20,8 +20,14 @@ hmap.put(nums[i],new_map.getOrDefault(nums[i],0)+1); //updating value
 HASHSET:::::::::
 creating a hashset with values 
 Set<Character> set = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')); OR
-Set<Character> chSet = Set.of('a','e','i','o','u','y');
+Set<Character> chSet = Set.of('a','e','i','o','u','y'); 
 
 STRING:::::::::::
 String xStr = String.valueOf(x); // store the int value as a string
 char[] ch = str.toCharArray(); //string to char array
+
+ArrayList:::::::
+List<String> list = new ArrayList<>(); //empty and dynamic
+String[] array = {"foo", "bar"};
+List<String> list = Arrays.asList(array); //fixed size
+Collections.sort(a1); //sorting arraylist
