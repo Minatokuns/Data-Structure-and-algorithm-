@@ -6,6 +6,7 @@ Different for different data type like for String " " is used.
 String[] aArray = new String[5];
 String[] bArray = {"a","b","c", "d", "e"};
 String[] cArray = new String[]{"a","b","c","d","e"};
+Arrays.toString(intArray); // [1, 2, 3, 4, 5] (print with brackets)
 
 Print an array : 
 int[] arr = { 1, 2, 3, 4, 5 };
@@ -30,4 +31,8 @@ ArrayList:::::::
 List<String> list = new ArrayList<>(); //empty and dynamic
 String[] array = {"foo", "bar"};
 List<String> list = Arrays.asList(array); //fixed size
+a1.add(i);
+a1.size();
+a1.get(i);
+
 Collections.sort(a1); //sorting arraylist
