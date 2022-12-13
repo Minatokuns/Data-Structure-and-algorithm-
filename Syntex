@@ -7,6 +7,10 @@ String[] aArray = new String[5];
 String[] bArray = {"a","b","c", "d", "e"};
 String[] cArray = new String[]{"a","b","c","d","e"};
 Arrays.toString(intArray); // [1, 2, 3, 4, 5] (print with brackets)
+int[] combinedIntArray = ArrayUtils.addAll(intArray, intArray2); //concatinating 2 arrays
+ArrayUtils.reverse(intArray); //reverseing contents
+int[] removed = ArrayUtils.removeElement(intArray, 3);//removes the 1st occurence of 3 in intArray and create a new array
+
 
 Print an array : 
 int[] arr = { 1, 2, 3, 4, 5 };
@@ -21,7 +25,8 @@ hmap.put(nums[i],new_map.getOrDefault(nums[i],0)+1); //updating value
 HASHSET:::::::::
 creating a hashset with values 
 Set<Character> set = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')); OR
-Set<Character> chSet = Set.of('a','e','i','o','u','y'); 
+Set<Character> chSet = Set.of('a','e','i','o','u','y'); or
+Set<String> set = new HashSet<String>(Arrays.asList(stringArray));
 
 STRING:::::::::::
 String xStr = String.valueOf(x); // store the int value as a string
@@ -31,8 +36,10 @@ ArrayList:::::::
 List<String> list = new ArrayList<>(); //empty and dynamic
 String[] array = {"foo", "bar"};
 List<String> list = Arrays.asList(array); //fixed size
+List pets = Arrays.asList(new String[] { "cat", "dog", "fish" });
+arrayList.toArray(stringArr); //arraylist(arraylist name) , stringArr(array name) 
 a1.add(i);
 a1.size();
 a1.get(i);
-
+boolean b = Arrays.asList(stringArray).contains("a"); // arraylist contains elment checking
 Collections.sort(a1); //sorting arraylist
