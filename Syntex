@@ -44,3 +44,10 @@ a1.size();
 a1.get(i);
 boolean b = Arrays.asList(stringArray).contains("a"); // arraylist contains elment checking
 Collections.sort(a1); //sorting arraylist
+
+Priority Queue:::::
+PriorityQueue<Integer> pq = new PriorityQueue<Integer>();//initialization (default priority increasing order)
+PriorityQueue<Integer> pq = new PriorityQueue<Integer>(Collections.reverseOrder());//initialization (priority decending order)
+pq.add();
+
+pq.poll(); //remove and return top value (returns null if empty throws no error)
