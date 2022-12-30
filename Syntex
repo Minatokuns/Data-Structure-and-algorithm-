@@ -34,6 +34,7 @@ char[] ch = str.toCharArray(); //string to char array
 
 ArrayList:::::::
 List<String> list = new ArrayList<>(); //empty and dynamic
+List<List<Integer>> arr = new ArrayList<List<Integer>>();
 list.size();
 String[] array = {"foo", "bar"};
 List<String> list = Arrays.asList(array); //fixed size
