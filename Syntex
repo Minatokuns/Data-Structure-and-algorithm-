@@ -14,7 +14,7 @@ int[] removed = ArrayUtils.removeElement(intArray, 3);//removes the 1st occurenc
 
 Print an array : 
 int[] arr = { 1, 2, 3, 4, 5 };
-Arrays.toString(arr); // print arr as a string
+Arrays.toString(arr); // print arr as a string // [1, 2, 3, 4, 5] (print with brackets)
 
 HASHMAP::::::::::
 Initialize : HashMap<Integer,Integer> hmap= new HashMap<>();  // <key,value> 
