@@ -7,9 +7,14 @@ String[] aArray = new String[5];
 String[] bArray = {"a","b","c", "d", "e"};
 String[] cArray = new String[]{"a","b","c","d","e"};
 Arrays.toString(intArray); // [1, 2, 3, 4, 5] (print with brackets)
+Arrays.deepToString(intArr); //use it for printing 2d array [[10, 20, 15, 22, 35]]
 int[] combinedIntArray = ArrayUtils.addAll(intArray, intArray2); //concatinating 2 arrays
 ArrayUtils.reverse(intArray); //reverseing contents
 int[] removed = ArrayUtils.removeElement(intArray, 3);//removes the 1st occurence of 3 in intArray and create a new array
+Arrays.binarySearch(intArr, intKey); //returns the index 
+Arrays.copyOf(intArr, 10); //increases the size of the array (10 is the size we provided)
+Arrays.fill(intArr, intKey);
+
 
 
 Print an array : 
@@ -45,6 +50,7 @@ a1.size();
 a1.get(i);
 boolean b = Arrays.asList(stringArray).contains("a"); // arraylist contains elment checking
 Collections.sort(a1); //sorting arraylist
+Collections.binarySearch(al, 10);
 
 Priority Queue:::::
 PriorityQueue<Integer> pq = new PriorityQueue<Integer>();//initialization (default priority increasing order)
