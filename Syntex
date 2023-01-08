@@ -27,15 +27,23 @@ hmap.containsKey(key)// if present return otherwise false
 hmap.get(key) // return value of that key
 hmap.put(key,value) // adding pair to hashmap
 hmap.put(nums[i],new_map.getOrDefault(nums[i],0)+1); //updating value
+map1.equals(map2); returns true if contains same key value pair else false
+map1.keySet().equals(map2.keySet()); compares if all keys are present (doesnt matter if value is different) returns true else false
+
+
 HASHSET:::::::::
 creating a hashset with values 
 Set<Character> set = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')); OR
 Set<Character> chSet = Set.of('a','e','i','o','u','y'); or
 Set<String> set = new HashSet<String>(Arrays.asList(stringArray));
+set1.equals(set2);//compares if all values are present returns true else false
 
 STRING:::::::::::
 String xStr = String.valueOf(x); // store the int value as a string
 char[] ch = str.toCharArray(); //string to char array
+String string = new String(ch);  // converting char array to string
+Str1.equals(Str2);// Returns true if they are equal
+myStr1.compareTo(myStr2); //compares lexigrophically if same it returns 0 otherwise it gives the 1st char difference  hallo(s1) hellp(s2) a - e = -4
 
 ArrayList:::::::
 List<String> list = new ArrayList<>(); //empty and dynamic
