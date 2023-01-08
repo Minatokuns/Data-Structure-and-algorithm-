@@ -52,6 +52,11 @@ boolean b = Arrays.asList(stringArray).contains("a"); // arraylist contains elme
 Collections.sort(a1); //sorting arraylist
 Collections.binarySearch(al, 10);
 
+Queue:::::
+Q.add();
+Q.offer(10); //if element added return true else false
+Q.peek();// returns first element in queue
+
 Priority Queue:::::
 PriorityQueue<Integer> pq = new PriorityQueue<Integer>();//initialization (default priority increasing order)
 PriorityQueue<Integer> pq = new PriorityQueue<Integer>(Collections.reverseOrder());//initialization (priority decending order)
