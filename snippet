@@ -16,3 +16,19 @@ while(x>0){
         }
         return true;
     }
+    
+ Monotonic stack::::
+    for (int i = 0; i < N; i++) {
+ 
+      // Either stack is empty or
+      // all bigger nums are popped off
+      while (stk.size() > 0 && stk.peek() > arr[i]) {
+        stk.pop();
+      }
+      stk.push(arr[i]);
+    }
+    while (!stk.isEmpty()) {
+      ans[j] = stk.peek();
+      stk.pop();
+      j--;
+    } //j is length of stack so we filling array from end of arry so array is in increasing order
