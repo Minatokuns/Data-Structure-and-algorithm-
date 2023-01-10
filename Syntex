@@ -56,6 +56,7 @@ arrayList.toArray(stringArr); //arraylist(arraylist name) , stringArr(array name
 a1.add(i);
 a1.size();
 a1.get(i);
+System.out.println(Arrays.toString(list.toArray()));  /printing list 
 boolean b = Arrays.asList(stringArray).contains("a"); // arraylist contains elment checking
 Collections.sort(a1); //sorting arraylist
 Collections.binarySearch(al, 10);
